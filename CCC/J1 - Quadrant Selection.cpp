@@ -3,11 +3,9 @@
 using namespace std;
 
 int main() {
-    int x;
-    int y;
+    int x, y;
 
-    cin >> x;
-    cin >> y;
+    cin >> x >> y;
 
     if (x > 0 && y > 0) {
         cout << "1" << endl;
